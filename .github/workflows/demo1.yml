@@ -13,8 +13,8 @@ on:
       - main # main
       - 'dev-*' # new
       - 'feat/**' # all new branch
-    paths-ignore:
-      - '.github/workflows/*'
+    # paths-ignore:
+    #   - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
